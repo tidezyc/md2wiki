@@ -1,0 +1,23 @@
+{
+  "name": "md2wiki",
+  "version": "0.9",
+  "description": "convert markdown to confluence markup",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js",
+    "dev": "webpack-dev-server --host 0.0.0.0 --inline --hot",
+    "build": "webpack app.js --output-filename=bundle.js"
+  },
+  "dependencies": {
+    "markdown-it": "latest",
+    "min-util": "latest",
+    "raw-loader": "latest",
+    "webpack": "latest"
+  },
+  "devDependencies": {
+    "webpack-dev-server": "latest"
+  },
+  "bin": {
+    "md2wiki": "bin/md2wiki.js"
+  }
+}
