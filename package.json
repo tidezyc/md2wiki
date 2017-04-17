@@ -1,6 +1,6 @@
 {
   "name": "md2wiki",
-  "version": "0.9",
+  "version": "0.0.9",
   "description": "convert markdown to confluence markup",
   "main": "index.js",
   "scripts": {

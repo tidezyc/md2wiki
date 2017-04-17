@@ -1,5 +1,5 @@
 var convert = require('./')
-var demoMarkdown = require('raw-loader!./demo.md')
+//var demoMarkdown = require('raw-loader!./demo.md')
 
 $('#convert').click(function() {
 	var markdown = $('#markdown').val()
@@ -9,6 +9,6 @@ $('#convert').click(function() {
 $(init)
 
 function init() {
-	$('#markdown').val(demoMarkdown)
+	//$('#markdown').val(demoMarkdown)
 	$('#convert').trigger('click')
 }

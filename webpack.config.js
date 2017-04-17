@@ -6,6 +6,6 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, ''),
     publicPath: "/",
-    filename: "bundle.js"
+    filename: "test.js"
   }
-};
+}
