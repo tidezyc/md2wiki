@@ -13,7 +13,7 @@ module.exports = {
         var lang = token.info;
 		var header
 		if(lang){
-			header = '{code:language=' + lang +'}'
+			header = '{code}'
 		}else{
 			header = '{code}'
 		}

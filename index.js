@@ -10,6 +10,6 @@ module.exports = exports = md2wiki
 
 function md2wiki(text) {
 	var tokens = md.parse(text, {})
-	console.log(tokens)
-	return renderer.render(tokens ,md.options, {})
+	var result = renderer.render(tokens ,md.options, {})
+  return result.replace(/\u0008/g,"");
 }
